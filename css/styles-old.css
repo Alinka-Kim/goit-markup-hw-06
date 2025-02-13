@@ -41,9 +41,7 @@ a {
 
 /* common */
 
-.section {
-  padding: 120px 0;
-}
+
 
 /* .container {
   max-width: 1158px;
@@ -59,10 +57,10 @@ a {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 } */
 
-.header-container {
+/* .header-container {
   display: flex;
   align-items: center;
-}
+} */
 
 /* .header-nav {
   display: flex;
@@ -126,11 +124,11 @@ a {
   border-radius: 2px;
   background-color: #404bbf;
 } */
-
+/* 
 .contacts {
   font-style: normal;
   margin-left: auto;
-}
+} */
 
 /* .contacts-list {
   display: flex;
@@ -157,125 +155,14 @@ a {
   color: #404bbf;
 } */
 
-/* ------------effective------------ */
-
-.effective {
-  background-color: #2e2f42;
-  padding: 188px 0;
-
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url("../images/people-officeMin.jpg");
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  background-position: center;
-  background-size: cover;
-  max-width: 1440px;
-}
-
-.effective-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-
-  max-width: 496px;
-  margin: 0 auto;
-  margin-bottom: 48px;
-}
-
-.effective-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4d5ae5;
-  cursor: pointer;
-
-  border: 0;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border-radius: 4px;
-  margin: 0 auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.effective-btn:hover,
-.effective-btn:focus {
-  background-color: #404bbf;
-}
-
-/* ------------eff------------ */
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.eff {
-}
-
-.eff-list {
-  gap: 24px;
-  display: flex;
-}
-
-.eff-item {
-  width: calc((100% - 3 * 24px) / 4);
-}
-
-.eff-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-
-  margin-bottom: 8px;
-}
-
-.eff-item-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.icon {
-  display: flex;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background: #f4f4fd;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-  padding: 24px 0;
-  height: 112px;
-}
 
 /* ------------team------------ */
 
-.team {
+/* .team {
   background-color: #f4f4fd;
-}
+} */
 
-.team-title {
+/* .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -285,14 +172,14 @@ a {
   text-transform: capitalize;
 
   margin-bottom: 72px;
-}
+} */
 
-.team-list {
+/* .team-list {
   gap: 24px;
   display: flex;
-}
+} */
 
-.team-item {
+/* .team-item {
   border-radius: 0 0 4px 4px;
 
   width: calc((100% - 72) / 4);
@@ -327,9 +214,9 @@ a {
   text-align: center;
   color: #434455;
   margin-bottom: 8px;
-}
+} */
 
-.item-svg {
+/* .item-svg {
 }
 
 .icon-meregi {
@@ -358,7 +245,7 @@ a {
 .social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
-}
+} */
 
 /* ------------portfolio------------ */
 
