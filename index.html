@@ -53,16 +53,16 @@
           </ul>
         </address>
 
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
           </svg>
         </button>
       </div>
 
-      <!-- <div class="mobile-menu is-open">
+      <div class="mobile-menu" data-menu>
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">
+          <button class="mobile-menu-close" data-menu-close>
             <svg class="icon-close" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -131,7 +131,7 @@
             </ul>
           </div>
         </div>
-      </div> -->
+      </div>
     </header>
     <main>
       <section class="effective section">
@@ -728,7 +728,7 @@
       </div>
     </footer>
 
-    <!-- <div class="backdrop" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="icon-close" width="8" height="8">
@@ -803,10 +803,13 @@
               ><span class="modal-check-item">
                 <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
-              <a href="" class="modal-privacy">Privacy Policy</a></label
-            >
+                </svg>
+              </span>
+              <span>
+                I accept the terms and conditions of the
+                <a href="" class="modal-privacy">Privacy Policy</a>
+              </span>
+            </label>
           </div>
 
           <button type="submit" class="modal-btn">Send</button>
@@ -814,6 +817,7 @@
       </div>
     </div>
 
-    <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
